@@ -1,0 +1,16 @@
+<md-card class="compact-card" *ngFor="let item of students">
+  <md-card-header>
+    <img md-card-avatar [src]="item.photo">
+    <md-card-title>{{item.fullname}}</md-card-title>
+    <md-card-subtitle appTopScores [average]="item.averageGrade()">Average: {{item.averageGrade()}}</md-card-subtitle>
+    <md-card-subtitle>
+      All asignments:
+      <md-icon [ngClass]="{'done': item.visualCues(), 'unDone': !item.visualCues()}">{{item.visualCues() ? 'done' : 'clear'}}</md-icon>
+    </md-card-subtitle>
+
+  </md-card-header>
+  <md-card-actions>
+    <md-icon class="md-icon-button unDone" (click)="deleteStudent(item)">delete</md-icon>
+    <md-icon class="md-icon-button" (click)="updateStudent(item)">update</md-icon>
+  </md-card-actions>
+</md-card>

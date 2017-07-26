@@ -1,0 +1,28 @@
+nav {
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin: -8px;
+  background: #8A2BE2;
+  box-sizing: border-box;
+}
+
+.link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.link:hover {
+  border-bottom: 2px solid #ffffff;
+  padding: 6px 0;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+  padding: 6px 0;
+}

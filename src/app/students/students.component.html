@@ -1,0 +1,18 @@
+<div class="leaderboard-container">
+  <md-slide-toggle (click)="changeView()">Compact View</md-slide-toggle>
+  <br><br>
+  <div class="search">
+    <md-input-container class="search">
+      <input mdInput type='text' placeholder='Search by full name.' (keyup)='filterTable($event)' />
+    </md-input-container>
+  </div>
+
+  <div *ngIf="!viewType">
+    <app-leaderboard [students]="students" (update)="updateStudent($event)" (delete)="deleteStudent($event)"></app-leaderboard>
+  </div>
+
+  <div *ngIf="viewType">
+    <app-leaderboard-compact [students]="students" (update)="updateStudent($event)" (delete)="deleteStudent($event)">
+    </app-leaderboard-compact>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="leaderboard-container">
+  <ngx-datatable #table class="material" [columnMode]="'force'" [headerHeight]="50" [footerHeight]="50" [rowHeight]="'auto'"
+    [rows]="students" [limit]="10" [headerHeight]="50" [footerHeight]="50" [rowHeight]="'auto'">
+    <ngx-datatable-column name="" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>
+        <img class="avatar-image" [src]="row.photo">
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Id" prop="id" [width]="200"></ngx-datatable-column>
+    <ngx-datatable-column name="Name" prop="fullname" [width]="200"></ngx-datatable-column>
+    <ngx-datatable-column name="Last Updated" prop="infoupdated" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>{{row.infoupdated | date}}</ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Average" prop="averageGrade()" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>
+        <p appTopScores [average]="row.averageGrade()">{{row.averageGrade()}}</p>
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="# of Delivered" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>
+        {{row.deliveried()}}
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="# of Missing" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>
+        {{5 - row.deliveried()}}
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>
+        <md-icon [ngClass]="{'done': row.visualCues(), 'unDone': !row.visualCues()}">{{row.visualCues() ? 'done' : 'clear'}}</md-icon>
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Actions" [width]="200">
+      <ng-template let-row="row" ngx-datatable-cell-template>
+        <md-icon class="md-icon-button" (click)="updateStudent(row)">update</md-icon>
+        <md-icon class="md-icon-button unDone" (click)="deleteStudent(row)">delete</md-icon>
+      </ng-template>
+    </ngx-datatable-column>
+  </ngx-datatable>
+</div>
