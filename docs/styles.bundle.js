@@ -66,7 +66,7 @@ exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":fa
 exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../@swimlane/ngx-datatable/release/assets/icons.css"), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n.leaderboard-container {\n    margin: 50px 0 0 0;\n}\n\n.md-icon-button {\n    cursor: pointer;\n}\n\n.done {\n    color: rgba(0, 255, 0, 0.8)\n}\n\n.unDone {\n    color: rgba(255, 0, 0, 0.8);\n}", ""]);
+exports.push([module.i, "html * {\n    font-family: 'Lato', sans-serif;\n}\n\n.leaderboard-container {\n    margin: 50px 0 0 0;\n}\n\n.md-icon-button {\n    cursor: pointer;\n}\n\n.done {\n    color: rgba(0, 255, 0, 0.8)\n}\n\n.unDone {\n    color: rgba(255, 0, 0, 0.8);\n}\n\n.select-avatar-small {\n    border-radius: 50%;\n    border: 2px solid rgba(0, 0, 0, 0.8);\n    margin: 10px;\n    width: 20px;\n    height: 20px;\n}", ""]);
 
 // exports
 

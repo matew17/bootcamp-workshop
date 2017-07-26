@@ -9,12 +9,12 @@ export class LeaderboardComponent implements OnInit {
   @Input() students;
   @Output() delete: EventEmitter<any> = new EventEmitter<any>();
   @Output() update: EventEmitter<any> = new EventEmitter<any>();
+  @Output() details: EventEmitter<any> = new EventEmitter<any>();
 
   constructor(
   ) { }
 
   ngOnInit() {
-
   }
 
   updateStudent(student): void {
@@ -23,6 +23,10 @@ export class LeaderboardComponent implements OnInit {
 
   deleteStudent(student) {
     this.delete.emit(student);
+  }
+
+  showDetails(student) {
+    this.details.emit(student.row);
   }
 
 }

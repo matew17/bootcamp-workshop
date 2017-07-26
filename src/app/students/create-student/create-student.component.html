@@ -11,9 +11,11 @@
           </div>
         </td>
         <td>
-          <md-input-container class="input">
-            <input class="" mdInput placeholder="Url Photo" name="photo" [(ngModel)]="student.photo" #photo="ngModel" required>
-          </md-input-container>
+          <md-select class="input" placeholder="Select an image" name="photo" [(ngModel)]="student.photo" #photo="ngModel" required>
+            <md-option *ngFor="let image of images" [value]="image.value">
+              <img class="select-avatar-small" [src]="image.value" /> {{ image.viewValue }}
+            </md-option>
+          </md-select>
           <div class="error" *ngIf="!photo.valid && photo.touched">
             Field cannot be empty.
           </div>
@@ -33,18 +35,18 @@
       <tr>
         <td>
           <md-input-container class="input">
-            <input type="number" min="0" max="5" mdInput placeholder="Grade one" name="grade1" [(ngModel)]="student.grade1" #grade1="ngModel">
+            <input type="number" min="0" max="5" mdInput placeholder="Martial arts" name="grade1" [(ngModel)]="student.grade1" #grade1="ngModel">
           </md-input-container>
 
         </td>
         <td>
           <md-input-container class="input">
-            <input type="number" min="0" max="5" mdInput placeholder="Grade two" name="grade2" [(ngModel)]="student.grade2" #grade2="ngModel">
+            <input type="number" min="0" max="5" mdInput placeholder="Strength" name="grade2" [(ngModel)]="student.grade2" #grade2="ngModel">
           </md-input-container>
         </td>
         <td>
           <md-input-container class="input">
-            <input type="number" min="0" max="5" mdInput placeholder="Grade three" name="grade3" [(ngModel)]="student.grade3" #grade3="ngModel">
+            <input type="number" min="0" max="5" mdInput placeholder="Speed" name="grade3" [(ngModel)]="student.grade3" #grade3="ngModel">
           </md-input-container>
 
         </td>
@@ -52,13 +54,13 @@
       <tr>
         <td>
           <md-input-container class="input">
-            <input type="number" min="0" max="5" mdInput placeholder="Grade four" name="grade4" [(ngModel)]="student.grade4" #grade4="ngModel">
+            <input type="number" min="0" max="5" mdInput placeholder="Stamina" name="grade4" [(ngModel)]="student.grade4" #grade4="ngModel">
           </md-input-container>
 
         </td>
         <td>
           <md-input-container class="input">
-            <input type="number" min="0" max="5" mdInput placeholder="Grade five" name="grade5" [(ngModel)]="student.grade5" #grade5="ngModel">
+            <input type="number" min="0" max="5" mdInput placeholder="Ki sense" name="grade5" [(ngModel)]="student.grade5" #grade5="ngModel">
           </md-input-container>
         </td>
         <td>

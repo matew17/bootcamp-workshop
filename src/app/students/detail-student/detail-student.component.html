@@ -1,0 +1,16 @@
+<md-card class="full-detail">
+  <md-card-header>
+    <img md-card-avatar [src]="student.photo">
+    <md-card-title>{{student.fullname}}</md-card-title>
+    <md-card-title>{{student.infoupdated}}</md-card-title>
+    <md-card-subtitle appTopScores [average]="student.averageGrade()">Average: {{student.averageGrade()}}</md-card-subtitle>
+    <md-card-subtitle>Deliveried: {{student.deliveried()}}</md-card-subtitle>
+    <md-card-subtitle>Missign: {{5 - student.deliveried()}}</md-card-subtitle>
+
+    <md-card-subtitle>
+      All asignments:
+      <md-icon [ngClass]="{'done': student.visualCues(), 'unDone': !student.visualCues()}">{{student.visualCues() ? 'done' : 'clear'}}</md-icon>
+    </md-card-subtitle>
+
+  </md-card-header>
+</md-card>

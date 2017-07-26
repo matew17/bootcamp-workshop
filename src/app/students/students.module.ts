@@ -1,7 +1,7 @@
 import {
   MdButtonModule, MdSlideToggleModule, MdCardModule,
   MdInputModule, MdNativeDateModule, MdDatepickerModule,
-  MdIconModule, MdSnackBarModule
+  MdIconModule, MdSnackBarModule, MdSelectModule, MdDialogModule
 } from '@angular/material';
 import { StudentsService } from './services/students.service';
 import { StudentsDataService } from './data-mock/students-data';
@@ -17,7 +17,8 @@ import { DataSource } from '@angular/cdk';
 import { FormsModule } from '@angular/forms';
 import { CreateStudentComponent } from './create-student/create-student.component';
 import { TopScoresDirective } from './top-scores.directive';
-import { LeaderboardCompactComponent } from './leaderboard-compact/leaderboard-compact.component'
+import { LeaderboardCompactComponent } from './leaderboard-compact/leaderboard-compact.component';
+import { DetailStudentComponent } from './detail-student/detail-student.component'
 
 
 @NgModule({
@@ -27,7 +28,7 @@ import { LeaderboardCompactComponent } from './leaderboard-compact/leaderboard-c
     HttpModule,
     NgxDatatableModule,
     FormsModule,
-    MdIconModule, MdSnackBarModule,
+    MdIconModule, MdSnackBarModule, MdSelectModule, MdDialogModule,
     MdButtonModule, MdSlideToggleModule, MdCardModule, MdIconModule,
     MdInputModule, MdDatepickerModule, MdNativeDateModule,
     InMemoryWebApiModule.forRoot(StudentsDataService)
@@ -37,7 +38,11 @@ import { LeaderboardCompactComponent } from './leaderboard-compact/leaderboard-c
     LeaderboardComponent,
     CreateStudentComponent,
     TopScoresDirective,
-    LeaderboardCompactComponent
+    LeaderboardCompactComponent,
+    DetailStudentComponent
+  ],
+  entryComponents: [
+    DetailStudentComponent
   ],
   providers: [
     StudentsService

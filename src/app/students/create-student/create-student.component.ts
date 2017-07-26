@@ -15,7 +15,18 @@ export class CreateStudentComponent implements OnInit {
 
   formMode = false;
   student: Students;
-
+  images = [
+    { value: './assets/images/18.png', viewValue: '18' },
+    { value: './assets/images/bills.png', viewValue: 'Bills' },
+    { value: './assets/images/boo.png', viewValue: 'Boo' },
+    { value: './assets/images/cap-blue.png', viewValue: 'Cap Blue' },
+    { value: './assets/images/freeza.png', viewValue: 'Freeza' },
+    { value: './assets/images/goku.png', viewValue: 'Goku' },
+    { value: './assets/images/picoro.png', viewValue: 'Picoro' },
+    { value: './assets/images/pilaf.png', viewValue: 'Pilaf' },
+    { value: './assets/images/vegeta.png', viewValue: 'Vegeta' },
+    { value: './assets/images/zell.png', viewValue: 'Zell' }
+  ]
   constructor(
     private studentsService: StudentsService,
     private route: ActivatedRoute,

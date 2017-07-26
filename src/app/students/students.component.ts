@@ -1,4 +1,5 @@
-import { MdSnackBar } from '@angular/material';
+import { DetailStudentComponent } from './detail-student/detail-student.component';
+import { MdSnackBar, MdDialog, MdDialogRef } from '@angular/material';
 import { Router } from '@angular/router';
 import { StudentsService } from './services/students.service';
 import { DatatableComponent } from '@swimlane/ngx-datatable/release';
@@ -21,11 +22,18 @@ export class StudentsComponent implements OnInit {
   constructor(
     private studentsService: StudentsService,
     private router: Router,
-    private snackBar: MdSnackBar
+    private snackBar: MdSnackBar,
+    public dialog: MdDialog
   ) { }
 
   ngOnInit() {
     this.getStudents();
+  }
+
+  studentDetails(student) {
+    const dialogRef = this.dialog.open(DetailStudentComponent, {
+      data: student
+    });
   }
 
   changeView() {
@@ -38,7 +46,7 @@ export class StudentsComponent implements OnInit {
       return d.fullname.toLowerCase().indexOf(val) !== -1 || !val;
     });
     this.students = temp;
-    this.table.offset = 0;
+    // this.table.offset = 0;
   }
 
   getStudents() {

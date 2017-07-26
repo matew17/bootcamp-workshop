@@ -8,11 +8,11 @@
   </div>
 
   <div *ngIf="!viewType">
-    <app-leaderboard [students]="students" (update)="updateStudent($event)" (delete)="deleteStudent($event)"></app-leaderboard>
+    <app-leaderboard [students]="students" (update)="updateStudent($event)" (delete)="deleteStudent($event)" (details)="studentDetails($event)"></app-leaderboard>
   </div>
 
   <div *ngIf="viewType">
-    <app-leaderboard-compact [students]="students" (update)="updateStudent($event)" (delete)="deleteStudent($event)">
+    <app-leaderboard-compact [students]="students" (update)="updateStudent($event)" (delete)="deleteStudent($event)" (details)="studentDetails($event)">
     </app-leaderboard-compact>
   </div>
 </div>
