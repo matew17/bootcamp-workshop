@@ -1,28 +1,34 @@
-# FinalProject
+# Welcome to my Bootcamp Final Project :neckbeard: :neckbeard:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+This is the final of a series of applications made for a Yuxi Global Angular Bootcamp
 
-## Development server
+## Set up the project :smiley_cat: :smiley_cat:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If you want to check this project out locally and change some stuff, you can download the code.
 
-## Code scaffolding
+1. Install Angular CLI to run the project.(This project was made with Angular CLI)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+2. After you download the code you have to install dependencies. I recomend Yarn, but You can also use npm install in the root of the project folder. it will install all dependencies according package.json file.
 
-## Build
+## How is the project architecture. :sunglasses: :sunglasses:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Modules
 
-## Running unit tests
+In this project you will find the following architecture:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. App Module: This is the root module, it have the routing module hooked to it.
+2. Shared Module: This module contains all shared components, just like Menu Component and page not found component. 
+3. Students Module: This is the biggest module od the project, it contains all the core components for the applications, but hey don't worry I am going to describe the components of this module.
+  - Student Component: This component contains the principal leaderboard table, and all the logic with calls to the Api/Mock, which supplies information for two more modules which show the info in a table with sorting, pagination and the compact view wich is an small view.
+  - Leaderboard Component: This is a component which receives some information and show the information of the users in a datatable. It have some action buttons which are some functions shared by Student Comoponet. 
+  - LeaderBoard Compact Component: This is the second component to show info of the users, but it shows the info in a compact view.
+  - Detail Component: This component receive an student information passed by clicking the table or the eye in the compact view and it shows a detail information of an student.
+  - Create Student Component: This component is a form which calls the api to create or update users, the calling depends of a parameter which can be pass though the URL.
+ 
+Services
 
-## Running end-to-end tests
+Services: There is just one service file which call the api for create/update/delete and get students.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- There is a directive which belongs to students module. It help us to highlight with a different color all the averages which surpass some grades.
+- There is a dataMock to represent an api call with some dummy data. This dataMock belongs to the Student Module.
+- There is also an students Module which help us with some instances in the application, it also have some methods with some logic.
