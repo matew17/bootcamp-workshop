@@ -1,6 +1,7 @@
 <div class="leaderboard-container">
   <ngx-datatable #table class="material" [columnMode]="'force'" [headerHeight]="50" [footerHeight]="50" [rowHeight]="'auto'"
-    [rows]="students" [limit]="10" [headerHeight]="50" [footerHeight]="50" [rowHeight]="'auto'" (activate)="showDetails($event)">
+    [rows]="students" [limit]="10" [headerHeight]="50" [footerHeight]="50" [rowHeight]="'auto'" (activate)="showDetails($event)"
+    [sorts]="[{prop: 'average', dir: 'desc'}]">
     <ngx-datatable-column name="" [width]="200">
       <ng-template let-row="row" ngx-datatable-cell-template>
         <img class="avatar-image" [src]="row.photo">
@@ -11,7 +12,7 @@
     <ngx-datatable-column name="Last Updated" prop="infoupdated" [width]="200">
       <ng-template let-row="row" ngx-datatable-cell-template>{{row.infoupdated | date}}</ng-template>
     </ngx-datatable-column>
-    <ngx-datatable-column name="Average" prop="averageGrade" [width]="200">
+    <ngx-datatable-column name="Average" prop="average" [width]="200">
       <ng-template let-row="row" ngx-datatable-cell-template>
         <p appTopScores [average]="row.averageGrade()">{{row.averageGrade()}}</p>
       </ng-template>

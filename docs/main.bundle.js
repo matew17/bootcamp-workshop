@@ -1866,8 +1866,8 @@ function View_LeaderboardComponent_7(_l) {
     }, null);
 }
 function View_LeaderboardComponent_0(_l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵvid"](0, [__WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵpid"](0, __WEBPACK_IMPORTED_MODULE_4__angular_common__["DatePipe"], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["LOCALE_ID"]]), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 81, 'div', [['class', 'leaderboard-container']], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n  '])),
-        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 78, 'ngx-datatable', [['class', 'material ngx-datatable']], [[2, 'fixed-header', null], [2, 'fixed-row', null], [2, 'scroll-vertical',
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵvid"](0, [__WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵpid"](0, __WEBPACK_IMPORTED_MODULE_4__angular_common__["DatePipe"], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["LOCALE_ID"]]), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 83, 'div', [['class', 'leaderboard-container']], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n  '])),
+        (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 80, 'ngx-datatable', [['class', 'material ngx-datatable']], [[2, 'fixed-header', null], [2, 'fixed-row', null], [2, 'scroll-vertical',
                 null], [2, 'scroll-horz', null], [2, 'selectable', null],
             [2, 'checkbox-selection', null], [2, 'cell-selection', null],
             [2, 'single-selection', null], [2, 'multi-selection', null],
@@ -1887,8 +1887,7 @@ function View_LeaderboardComponent_0(_l) {
         }, __WEBPACK_IMPORTED_MODULE_7__gendir_node_modules_swimlane_ngx_datatable_release_components_datatable_component_ngfactory__["a" /* View_DatatableComponent_0 */], __WEBPACK_IMPORTED_MODULE_7__gendir_node_modules_swimlane_ngx_datatable_release_components_datatable_component_ngfactory__["b" /* RenderType_DatatableComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵdid"](4571136, [['table', 4]], 3, __WEBPACK_IMPORTED_MODULE_8__swimlane_ngx_datatable_release_components_datatable_component__["DatatableComponent"], [__WEBPACK_IMPORTED_MODULE_9__swimlane_ngx_datatable_release_services_scrollbar_helper_service__["ScrollbarHelper"], __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_1__angular_core__["KeyValueDiffers"]], { rows: [0, 'rows'], rowHeight: [1, 'rowHeight'], columnMode: [2,
                 'columnMode'], headerHeight: [3, 'headerHeight'], footerHeight: [4, 'footerHeight'],
-            limit: [5, 'limit'] }, { activate: 'activate' }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](603979776, 1, { columnTemplates: 1 }),
-        __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 2, { rowDetail: 0 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 3, { footer: 0 }), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 7, 'ngx-datatable-column', [['name', '']], null, null, null, null, null)),
+            limit: [5, 'limit'], sorts: [6, 'sorts'] }, { activate: 'activate' }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](603979776, 1, { columnTemplates: 1 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 2, { rowDetail: 0 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 3, { footer: 0 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵpod"]({ prop: 0, dir: 1 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵpad"](1), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 7, 'ngx-datatable-column', [['name', '']], null, null, null, null, null)),
         __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵdid"](16384, [[1, 4]], 2, __WEBPACK_IMPORTED_MODULE_10__swimlane_ngx_datatable_release_components_columns_column_directive__["DataTableColumnDirective"], [], { name: [0,
                 'name'], width: [1, 'width'] }, null), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 4, { cellTemplate: 0 }),
         __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 5, { headerTemplate: 0 }), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n      '])),
@@ -1905,7 +1904,7 @@ function View_LeaderboardComponent_0(_l) {
         (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n      '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵand"](0, [[10, 2]], null, 1, null, View_LeaderboardComponent_2)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵdid"](16384, null, 0, __WEBPACK_IMPORTED_MODULE_11__swimlane_ngx_datatable_release_components_columns_column_cell_directive__["DataTableColumnCellDirective"], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["TemplateRef"]], null, null),
         (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n    '])),
         (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵeld"](0, null, null, 7, 'ngx-datatable-column', [['name',
-                'Average'], ['prop', 'averageGrade']], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵdid"](16384, [[1, 4]], 2, __WEBPACK_IMPORTED_MODULE_10__swimlane_ngx_datatable_release_components_columns_column_directive__["DataTableColumnDirective"], [], { name: [0, 'name'], prop: [1, 'prop'], width: [2, 'width'] }, null),
+                'Average'], ['prop', 'average']], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵdid"](16384, [[1, 4]], 2, __WEBPACK_IMPORTED_MODULE_10__swimlane_ngx_datatable_release_components_columns_column_directive__["DataTableColumnDirective"], [], { name: [0, 'name'], prop: [1, 'prop'], width: [2, 'width'] }, null),
         __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 12, { cellTemplate: 0 }), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵqud"](335544320, 13, { headerTemplate: 0 }),
         (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n      '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵand"](0, [[12, 2]], null, 1, null, View_LeaderboardComponent_3)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵdid"](16384, null, 0, __WEBPACK_IMPORTED_MODULE_11__swimlane_ngx_datatable_release_components_columns_column_cell_directive__["DataTableColumnCellDirective"], [__WEBPACK_IMPORTED_MODULE_1__angular_core__["TemplateRef"]], null, null),
         (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n    '])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵted"](null, ['\n    '])),
@@ -1930,38 +1929,39 @@ function View_LeaderboardComponent_0(_l) {
         var currVal_13 = 50;
         var currVal_14 = 50;
         var currVal_15 = 10;
-        _ck(_v, 4, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15);
-        var currVal_16 = '';
-        var currVal_17 = 200;
-        _ck(_v, 10, 0, currVal_16, currVal_17);
-        var currVal_18 = 'Id';
-        var currVal_19 = 'id';
-        var currVal_20 = 200;
-        _ck(_v, 19, 0, currVal_18, currVal_19, currVal_20);
-        var currVal_21 = 'Name';
-        var currVal_22 = 'fullname';
-        var currVal_23 = 200;
-        _ck(_v, 24, 0, currVal_21, currVal_22, currVal_23);
-        var currVal_24 = 'Last Updated';
-        var currVal_25 = 'infoupdated';
-        var currVal_26 = 200;
-        _ck(_v, 29, 0, currVal_24, currVal_25, currVal_26);
-        var currVal_27 = 'Average';
-        var currVal_28 = 'averageGrade';
-        var currVal_29 = 200;
-        _ck(_v, 38, 0, currVal_27, currVal_28, currVal_29);
-        var currVal_30 = '# of Delivered';
-        var currVal_31 = 200;
-        _ck(_v, 47, 0, currVal_30, currVal_31);
-        var currVal_32 = '# of Missing';
-        var currVal_33 = 200;
-        _ck(_v, 56, 0, currVal_32, currVal_33);
-        var currVal_34 = '';
-        var currVal_35 = 200;
-        _ck(_v, 65, 0, currVal_34, currVal_35);
-        var currVal_36 = 'Actions';
-        var currVal_37 = 200;
-        _ck(_v, 74, 0, currVal_36, currVal_37);
+        var currVal_16 = _ck(_v, 9, 0, _ck(_v, 8, 0, 'average', 'desc'));
+        _ck(_v, 4, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16);
+        var currVal_17 = '';
+        var currVal_18 = 200;
+        _ck(_v, 12, 0, currVal_17, currVal_18);
+        var currVal_19 = 'Id';
+        var currVal_20 = 'id';
+        var currVal_21 = 200;
+        _ck(_v, 21, 0, currVal_19, currVal_20, currVal_21);
+        var currVal_22 = 'Name';
+        var currVal_23 = 'fullname';
+        var currVal_24 = 200;
+        _ck(_v, 26, 0, currVal_22, currVal_23, currVal_24);
+        var currVal_25 = 'Last Updated';
+        var currVal_26 = 'infoupdated';
+        var currVal_27 = 200;
+        _ck(_v, 31, 0, currVal_25, currVal_26, currVal_27);
+        var currVal_28 = 'Average';
+        var currVal_29 = 'average';
+        var currVal_30 = 200;
+        _ck(_v, 40, 0, currVal_28, currVal_29, currVal_30);
+        var currVal_31 = '# of Delivered';
+        var currVal_32 = 200;
+        _ck(_v, 49, 0, currVal_31, currVal_32);
+        var currVal_33 = '# of Missing';
+        var currVal_34 = 200;
+        _ck(_v, 58, 0, currVal_33, currVal_34);
+        var currVal_35 = '';
+        var currVal_36 = 200;
+        _ck(_v, 67, 0, currVal_35, currVal_36);
+        var currVal_37 = 'Actions';
+        var currVal_38 = 200;
+        _ck(_v, 76, 0, currVal_37, currVal_38);
     }, function (_ck, _v) {
         var currVal_0 = __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵnov"](_v, 4).isFixedHeader;
         var currVal_1 = __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵnov"](_v, 4).isFixedRow;
@@ -1982,7 +1982,7 @@ function View_LeaderboardComponent_Host_0(_l) {
     }, null);
 }
 var LeaderboardComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["ɵccf"]('app-leaderboard', __WEBPACK_IMPORTED_MODULE_6__app_students_leaderboard_leaderboard_component__["a" /* LeaderboardComponent */], View_LeaderboardComponent_Host_0, { students: 'students' }, { delete: 'delete', update: 'update', details: 'details' }, []);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovYm9vdGNhbXAvZmluYWwtcHJvamVjdC9zcmMvYXBwL3N0dWRlbnRzL2xlYWRlcmJvYXJkL2xlYWRlcmJvYXJkLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9EOi9ib290Y2FtcC9maW5hbC1wcm9qZWN0L3NyYy9hcHAvc3R1ZGVudHMvbGVhZGVyYm9hcmQvbGVhZGVyYm9hcmQuY29tcG9uZW50LnRzIiwibmc6Ly8vRDovYm9vdGNhbXAvZmluYWwtcHJvamVjdC9zcmMvYXBwL3N0dWRlbnRzL2xlYWRlcmJvYXJkL2xlYWRlcmJvYXJkLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovYm9vdGNhbXAvZmluYWwtcHJvamVjdC9zcmMvYXBwL3N0dWRlbnRzL2xlYWRlcmJvYXJkL2xlYWRlcmJvYXJkLmNvbXBvbmVudC50cy5MZWFkZXJib2FyZENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxkaXYgY2xhc3M9XCJsZWFkZXJib2FyZC1jb250YWluZXJcIj5cbiAgPG5neC1kYXRhdGFibGUgI3RhYmxlIGNsYXNzPVwibWF0ZXJpYWxcIiBbY29sdW1uTW9kZV09XCInZm9yY2UnXCIgW2hlYWRlckhlaWdodF09XCI1MFwiIFtmb290ZXJIZWlnaHRdPVwiNTBcIiBbcm93SGVpZ2h0XT1cIidhdXRvJ1wiXG4gICAgW3Jvd3NdPVwic3R1ZGVudHNcIiBbbGltaXRdPVwiMTBcIiBbaGVhZGVySGVpZ2h0XT1cIjUwXCIgW2Zvb3RlckhlaWdodF09XCI1MFwiIFtyb3dIZWlnaHRdPVwiJ2F1dG8nXCIgKGFjdGl2YXRlKT1cInNob3dEZXRhaWxzKCRldmVudClcIj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIlwiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICA8aW1nIGNsYXNzPVwiYXZhdGFyLWltYWdlXCIgW3NyY109XCJyb3cucGhvdG9cIj5cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIklkXCIgcHJvcD1cImlkXCIgW3dpZHRoXT1cIjIwMFwiPjwvbmd4LWRhdGF0YWJsZS1jb2x1bW4+XG4gICAgPG5neC1kYXRhdGFibGUtY29sdW1uIG5hbWU9XCJOYW1lXCIgcHJvcD1cImZ1bGxuYW1lXCIgW3dpZHRoXT1cIjIwMFwiPjwvbmd4LWRhdGF0YWJsZS1jb2x1bW4+XG4gICAgPG5neC1kYXRhdGFibGUtY29sdW1uIG5hbWU9XCJMYXN0IFVwZGF0ZWRcIiBwcm9wPVwiaW5mb3VwZGF0ZWRcIiBbd2lkdGhdPVwiMjAwXCI+XG4gICAgICA8bmctdGVtcGxhdGUgbGV0LXJvdz1cInJvd1wiIG5neC1kYXRhdGFibGUtY2VsbC10ZW1wbGF0ZT57e3Jvdy5pbmZvdXBkYXRlZCB8IGRhdGV9fTwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIkF2ZXJhZ2VcIiBwcm9wPVwiYXZlcmFnZUdyYWRlXCIgW3dpZHRoXT1cIjIwMFwiPlxuICAgICAgPG5nLXRlbXBsYXRlIGxldC1yb3c9XCJyb3dcIiBuZ3gtZGF0YXRhYmxlLWNlbGwtdGVtcGxhdGU+XG4gICAgICAgIDxwIGFwcFRvcFNjb3JlcyBbYXZlcmFnZV09XCJyb3cuYXZlcmFnZUdyYWRlKClcIj57e3Jvdy5hdmVyYWdlR3JhZGUoKX19PC9wPlxuICAgICAgPC9uZy10ZW1wbGF0ZT5cbiAgICA8L25neC1kYXRhdGFibGUtY29sdW1uPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiIyBvZiBEZWxpdmVyZWRcIiBbd2lkdGhdPVwiMjAwXCI+XG4gICAgICA8bmctdGVtcGxhdGUgbGV0LXJvdz1cInJvd1wiIG5neC1kYXRhdGFibGUtY2VsbC10ZW1wbGF0ZT5cbiAgICAgICAge3tyb3cuZGVsaXZlcmllZCgpfX1cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIiMgb2YgTWlzc2luZ1wiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICB7ezUgLSByb3cuZGVsaXZlcmllZCgpfX1cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIlwiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICA8bWQtaWNvbiBbbmdDbGFzc109XCJ7J2RvbmUnOiByb3cudmlzdWFsQ3VlcygpLCAndW5Eb25lJzogIXJvdy52aXN1YWxDdWVzKCl9XCI+e3tyb3cudmlzdWFsQ3VlcygpID8gJ2RvbmUnIDogJ2NsZWFyJ319PC9tZC1pY29uPlxuICAgICAgPC9uZy10ZW1wbGF0ZT5cbiAgICA8L25neC1kYXRhdGFibGUtY29sdW1uPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiQWN0aW9uc1wiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICA8bWQtaWNvbiBjbGFzcz1cIm1kLWljb24tYnV0dG9uXCIgKGNsaWNrKT1cInVwZGF0ZVN0dWRlbnQocm93KTsgJGV2ZW50LnN0b3BQcm9wYWdhdGlvbigpXCI+dXBkYXRlPC9tZC1pY29uPlxuICAgICAgICA8bWQtaWNvbiBjbGFzcz1cIm1kLWljb24tYnV0dG9uIHVuRG9uZVwiIChjbGljayk9XCJkZWxldGVTdHVkZW50KHJvdyk7ICRldmVudC5zdG9wUHJvcGFnYXRpb24oKVwiPmRlbGV0ZTwvbWQtaWNvbj5cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgPC9uZ3gtZGF0YXRhYmxlPlxuPC9kaXY+IiwiPGFwcC1sZWFkZXJib2FyZD48L2FwcC1sZWFkZXJib2FyZD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDSTZELCtDQUNyRDtNQUFBO01BQUEsMERBQTRDO01BQUE7SUFBbEI7SUFBMUIsV0FBMEIsU0FBMUI7Ozs7b0JBTXFEOztRQUFBO1lBQUE7UUFBQTs7OztvQkFHQSwrQ0FDckQ7TUFBQTtNQUFBLG1EQUFBO01BQUEsdURBQStDO01BQUEsVUFBMEI7SUFBekQ7SUFBaEIsV0FBZ0IsU0FBaEI7O0lBQStDO0lBQUE7Ozs7b0JBSU07O1FBQUE7UUFBQTs7OztvQkFLQTs7UUFBQTtRQUFBOzs7O29CQUtBLCtDQUNyRDtNQUFBO01BQUE7YUFBQTttQ0FBQSxnREFBUztVQUFBLG9CQUFUO3VCQUFBLHNDQUFBO1VBQUE7VUFBQSw2QkFBNkUsNEJBQWlEO1VBQUE7SUFBckg7SUFBVCxXQUFTLFNBQVQ7SUFBQTs7SUFBNkU7SUFBQTs7OztvQkFJeEIsK0NBQ3JEO01BQUE7VUFBQTtRQUFBO1FBQUE7UUFBZ0M7VUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFoQztNQUFBLGlEQUFBO01BQUE7YUFBQTtVQUFBLGdEQUF1RjtNQUFnQiwrQ0FDdkc7VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUF1QztjQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQXZDO1VBQUEsaURBQUE7OEJBQUE7VUFBQSxzQkFBQTs0QkFBQSxnREFBOEY7aUJBQUEsZ0JBQWdCOztJQUQ5RztJQUNBOzs7OzBEQXBDUjtNQUFBO01BQUEsNENBQW1DO01BQ2pDO1VBQUE7Y0FBQTtjQUFBO2NBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQzhGO2NBQUE7Y0FBQTtZQUFBO1lBRDlGO1VBQUEseUVBQUE7VUFBQTtnQ0FBQTtjQUFBO2NBQUE7YUFBQSw0REFDK0g7VUFBQSxhQUM3SDtVQUFBO2FBQUE7VUFBQTthQUFBLGlDQUE0QztNQUMxQzthQUFBO1VBQUEsNkJBRWM7TUFDTywyQ0FDdkI7VUFBQTtVQUFBLG1EQUFBO1VBQUE7YUFBQTtNQUErRSwyQ0FDL0U7VUFBQTtVQUFBLGlFQUFBO1VBQUE7Y0FBQTthQUFBLGlDQUF1RjtNQUN2RjtVQUFBO1VBQUEscUNBQUE7VUFBQTthQUFBO01BQTJFLDZDQUN6RTtVQUFBLHFEQUFBO1VBQUE7TUFBK0YsMkNBQzFFO01BQ3ZCO1VBQUE7VUFBQSxxQ0FBQTtVQUFBO2FBQUE7TUFBdUUsNkNBQ3JFO1VBQUEscURBQUE7VUFBQTtNQUVjLDJDQUNPO01BQ3ZCO1VBQUE7VUFBQSx1QkFBQTtVQUFBO1VBQUEsMkRBQTBEO1VBQUEsZUFDeEQ7VUFBQSxxQ0FBQTtVQUFBLDhDQUVjO1VBQUEsYUFDTywyQ0FDdkI7VUFBQTtVQUFBO2FBQUE7VUFBQTthQUFBLGtDQUF3RDtNQUN0RDthQUFBO1VBQUEsNkJBRWM7TUFDTywyQ0FDdkI7VUFBQTtVQUFBLHFDQUFBO1VBQUE7VUFBQSw4REFBNEM7VUFBQSxlQUMxQztVQUFBLHFDQUFBO1VBQUEsOENBRWM7VUFBQSxhQUNPLDJDQUN2QjtVQUFBO1VBQUE7YUFBQTtVQUFBO2FBQUEsa0NBQW1EO01BQ2pEO2FBQUE7VUFBQSw2QkFHYztNQUNPLHlDQUNUOzs7UUFyQ2Q7UUFEb0c7UUFBL0Q7UUFBdUI7UUFBb0I7UUFDOUQ7UUFEcEIsV0FDRSxXQURvRyxXQUEvRCxXQUF1QixXQUFvQixXQUM5RCxVQURwQjtRQUV3QjtRQUFRO1FBQTlCLFlBQXNCLFdBQVEsVUFBOUI7UUFLc0I7UUFBVTtRQUFVO1FBQTFDLFlBQXNCLFdBQVUsV0FBVSxVQUExQztRQUNzQjtRQUFZO1FBQWdCO1FBQWxELFlBQXNCLFdBQVksV0FBZ0IsVUFBbEQ7UUFDc0I7UUFBb0I7UUFBbUI7UUFBN0QsWUFBc0IsV0FBb0IsV0FBbUIsVUFBN0Q7UUFHc0I7UUFBZTtRQUFvQjtRQUF6RCxZQUFzQixXQUFlLFdBQW9CLFVBQXpEO1FBS3NCO1FBQXNCO1FBQTVDLFlBQXNCLFdBQXNCLFVBQTVDO1FBS3NCO1FBQW9CO1FBQTFDLFlBQXNCLFdBQW9CLFVBQTFDO1FBS3NCO1FBQVE7UUFBOUIsWUFBc0IsV0FBUSxVQUE5QjtRQUtzQjtRQUFlO1FBQXJDLFlBQXNCLFdBQWUsVUFBckM7O1FBaENGO1FBQUE7UUFBQTtRQUFBO1FBQUE7UUFBQTtRQUFBO1FBQUE7UUFBQTtRQUFBO1FBQUEsV0FBQTtZQUFBLDZCQUFBOzs7O29CQ0RGO01BQUE7cUNBQUEsVUFBQTtNQUFBO0lBQUE7Ozs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovYm9vdGNhbXAvZmluYWwtcHJvamVjdC9zcmMvYXBwL3N0dWRlbnRzL2xlYWRlcmJvYXJkL2xlYWRlcmJvYXJkLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9EOi9ib290Y2FtcC9maW5hbC1wcm9qZWN0L3NyYy9hcHAvc3R1ZGVudHMvbGVhZGVyYm9hcmQvbGVhZGVyYm9hcmQuY29tcG9uZW50LnRzIiwibmc6Ly8vRDovYm9vdGNhbXAvZmluYWwtcHJvamVjdC9zcmMvYXBwL3N0dWRlbnRzL2xlYWRlcmJvYXJkL2xlYWRlcmJvYXJkLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovYm9vdGNhbXAvZmluYWwtcHJvamVjdC9zcmMvYXBwL3N0dWRlbnRzL2xlYWRlcmJvYXJkL2xlYWRlcmJvYXJkLmNvbXBvbmVudC50cy5MZWFkZXJib2FyZENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxkaXYgY2xhc3M9XCJsZWFkZXJib2FyZC1jb250YWluZXJcIj5cbiAgPG5neC1kYXRhdGFibGUgI3RhYmxlIGNsYXNzPVwibWF0ZXJpYWxcIiBbY29sdW1uTW9kZV09XCInZm9yY2UnXCIgW2hlYWRlckhlaWdodF09XCI1MFwiIFtmb290ZXJIZWlnaHRdPVwiNTBcIiBbcm93SGVpZ2h0XT1cIidhdXRvJ1wiXG4gICAgW3Jvd3NdPVwic3R1ZGVudHNcIiBbbGltaXRdPVwiMTBcIiBbaGVhZGVySGVpZ2h0XT1cIjUwXCIgW2Zvb3RlckhlaWdodF09XCI1MFwiIFtyb3dIZWlnaHRdPVwiJ2F1dG8nXCIgKGFjdGl2YXRlKT1cInNob3dEZXRhaWxzKCRldmVudClcIlxuICAgIFtzb3J0c109XCJbe3Byb3A6ICdhdmVyYWdlJywgZGlyOiAnZGVzYyd9XVwiPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiXCIgW3dpZHRoXT1cIjIwMFwiPlxuICAgICAgPG5nLXRlbXBsYXRlIGxldC1yb3c9XCJyb3dcIiBuZ3gtZGF0YXRhYmxlLWNlbGwtdGVtcGxhdGU+XG4gICAgICAgIDxpbWcgY2xhc3M9XCJhdmF0YXItaW1hZ2VcIiBbc3JjXT1cInJvdy5waG90b1wiPlxuICAgICAgPC9uZy10ZW1wbGF0ZT5cbiAgICA8L25neC1kYXRhdGFibGUtY29sdW1uPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiSWRcIiBwcm9wPVwiaWRcIiBbd2lkdGhdPVwiMjAwXCI+PC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIk5hbWVcIiBwcm9wPVwiZnVsbG5hbWVcIiBbd2lkdGhdPVwiMjAwXCI+PC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIkxhc3QgVXBkYXRlZFwiIHByb3A9XCJpbmZvdXBkYXRlZFwiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPnt7cm93LmluZm91cGRhdGVkIHwgZGF0ZX19PC9uZy10ZW1wbGF0ZT5cbiAgICA8L25neC1kYXRhdGFibGUtY29sdW1uPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiQXZlcmFnZVwiIHByb3A9XCJhdmVyYWdlXCIgW3dpZHRoXT1cIjIwMFwiPlxuICAgICAgPG5nLXRlbXBsYXRlIGxldC1yb3c9XCJyb3dcIiBuZ3gtZGF0YXRhYmxlLWNlbGwtdGVtcGxhdGU+XG4gICAgICAgIDxwIGFwcFRvcFNjb3JlcyBbYXZlcmFnZV09XCJyb3cuYXZlcmFnZUdyYWRlKClcIj57e3Jvdy5hdmVyYWdlR3JhZGUoKX19PC9wPlxuICAgICAgPC9uZy10ZW1wbGF0ZT5cbiAgICA8L25neC1kYXRhdGFibGUtY29sdW1uPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiIyBvZiBEZWxpdmVyZWRcIiBbd2lkdGhdPVwiMjAwXCI+XG4gICAgICA8bmctdGVtcGxhdGUgbGV0LXJvdz1cInJvd1wiIG5neC1kYXRhdGFibGUtY2VsbC10ZW1wbGF0ZT5cbiAgICAgICAge3tyb3cuZGVsaXZlcmllZCgpfX1cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIiMgb2YgTWlzc2luZ1wiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICB7ezUgLSByb3cuZGVsaXZlcmllZCgpfX1cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgICA8bmd4LWRhdGF0YWJsZS1jb2x1bW4gbmFtZT1cIlwiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICA8bWQtaWNvbiBbbmdDbGFzc109XCJ7J2RvbmUnOiByb3cudmlzdWFsQ3VlcygpLCAndW5Eb25lJzogIXJvdy52aXN1YWxDdWVzKCl9XCI+e3tyb3cudmlzdWFsQ3VlcygpID8gJ2RvbmUnIDogJ2NsZWFyJ319PC9tZC1pY29uPlxuICAgICAgPC9uZy10ZW1wbGF0ZT5cbiAgICA8L25neC1kYXRhdGFibGUtY29sdW1uPlxuICAgIDxuZ3gtZGF0YXRhYmxlLWNvbHVtbiBuYW1lPVwiQWN0aW9uc1wiIFt3aWR0aF09XCIyMDBcIj5cbiAgICAgIDxuZy10ZW1wbGF0ZSBsZXQtcm93PVwicm93XCIgbmd4LWRhdGF0YWJsZS1jZWxsLXRlbXBsYXRlPlxuICAgICAgICA8bWQtaWNvbiBjbGFzcz1cIm1kLWljb24tYnV0dG9uXCIgKGNsaWNrKT1cInVwZGF0ZVN0dWRlbnQocm93KTsgJGV2ZW50LnN0b3BQcm9wYWdhdGlvbigpXCI+dXBkYXRlPC9tZC1pY29uPlxuICAgICAgICA8bWQtaWNvbiBjbGFzcz1cIm1kLWljb24tYnV0dG9uIHVuRG9uZVwiIChjbGljayk9XCJkZWxldGVTdHVkZW50KHJvdyk7ICRldmVudC5zdG9wUHJvcGFnYXRpb24oKVwiPmRlbGV0ZTwvbWQtaWNvbj5cbiAgICAgIDwvbmctdGVtcGxhdGU+XG4gICAgPC9uZ3gtZGF0YXRhYmxlLWNvbHVtbj5cbiAgPC9uZ3gtZGF0YXRhYmxlPlxuPC9kaXY+IiwiPGFwcC1sZWFkZXJib2FyZD48L2FwcC1sZWFkZXJib2FyZD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDSzZELCtDQUNyRDtNQUFBO01BQUEsMERBQTRDO01BQUE7SUFBbEI7SUFBMUIsV0FBMEIsU0FBMUI7Ozs7b0JBTXFEOztRQUFBO1lBQUE7UUFBQTs7OztvQkFHQSwrQ0FDckQ7TUFBQTtNQUFBLG1EQUFBO01BQUEsdURBQStDO01BQUEsVUFBMEI7SUFBekQ7SUFBaEIsV0FBZ0IsU0FBaEI7O0lBQStDO0lBQUE7Ozs7b0JBSU07O1FBQUE7UUFBQTs7OztvQkFLQTs7UUFBQTtRQUFBOzs7O29CQUtBLCtDQUNyRDtNQUFBO01BQUE7YUFBQTttQ0FBQSxnREFBUztVQUFBLG9CQUFUO3VCQUFBLHNDQUFBO1VBQUE7VUFBQSw2QkFBNkUsNEJBQWlEO1VBQUE7SUFBckg7SUFBVCxXQUFTLFNBQVQ7SUFBQTs7SUFBNkU7SUFBQTs7OztvQkFJeEIsK0NBQ3JEO01BQUE7VUFBQTtRQUFBO1FBQUE7UUFBZ0M7VUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFoQztNQUFBLGlEQUFBO01BQUE7YUFBQTtVQUFBLGdEQUF1RjtNQUFnQiwrQ0FDdkc7VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUF1QztjQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQXZDO1VBQUEsaURBQUE7OEJBQUE7VUFBQSxzQkFBQTs0QkFBQSxnREFBOEY7aUJBQUEsZ0JBQWdCOztJQUQ5RztJQUNBOzs7OzBEQXJDUjtNQUFBO01BQUEsNENBQW1DO01BQ2pDO1VBQUE7Y0FBQTtjQUFBO2NBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQzhGO2NBQUE7Y0FBQTtZQUFBO1lBRDlGO1VBQUEseUVBQUE7VUFBQTtnQ0FBQTtjQUFBO2NBQUE7VUFBQTtVQUFBLHFCQUVFLDRCQUEyQztVQUFBLGFBQzNDO1VBQUE7YUFBQTtVQUFBO2FBQUEsaUNBQTRDO01BQzFDO2FBQUE7VUFBQSw2QkFFYztNQUNPLDJDQUN2QjtVQUFBO1VBQUEsbURBQUE7VUFBQTthQUFBO01BQStFLDJDQUMvRTtVQUFBO1VBQUEsaUVBQUE7VUFBQTtjQUFBO2FBQUEsaUNBQXVGO01BQ3ZGO1VBQUE7VUFBQSxxQ0FBQTtVQUFBO2FBQUE7TUFBMkUsNkNBQ3pFO1VBQUEscURBQUE7VUFBQTtNQUErRiwyQ0FDMUU7TUFDdkI7VUFBQTtVQUFBLHFDQUFBO1VBQUE7YUFBQTtNQUFrRSw2Q0FDaEU7VUFBQSxxREFBQTtVQUFBO01BRWMsMkNBQ087TUFDdkI7VUFBQTtVQUFBLHVCQUFBO1VBQUE7VUFBQSwyREFBMEQ7VUFBQSxlQUN4RDtVQUFBLHFDQUFBO1VBQUEsOENBRWM7VUFBQSxhQUNPLDJDQUN2QjtVQUFBO1VBQUE7YUFBQTtVQUFBO2FBQUEsa0NBQXdEO01BQ3REO2FBQUE7VUFBQSw2QkFFYztNQUNPLDJDQUN2QjtVQUFBO1VBQUEscUNBQUE7VUFBQTtVQUFBLDhEQUE0QztVQUFBLGVBQzFDO1VBQUEscUNBQUE7VUFBQSw4Q0FFYztVQUFBLGFBQ08sMkNBQ3ZCO1VBQUE7VUFBQTthQUFBO1VBQUE7YUFBQSxrQ0FBbUQ7TUFDakQ7YUFBQTtVQUFBLDZCQUdjO01BQ08seUNBQ1Q7OztRQXRDZDtRQURvRztRQUEvRDtRQUF1QjtRQUFvQjtRQUM5RDtRQUNsQjtRQUZGLFdBQ0UsV0FEb0csV0FBL0QsV0FBdUIsV0FBb0IsV0FDOUQ7WUFDbEIsVUFGRjtRQUd3QjtRQUFRO1FBQTlCLFlBQXNCLFdBQVEsVUFBOUI7UUFLc0I7UUFBVTtRQUFVO1FBQTFDLFlBQXNCLFdBQVUsV0FBVSxVQUExQztRQUNzQjtRQUFZO1FBQWdCO1FBQWxELFlBQXNCLFdBQVksV0FBZ0IsVUFBbEQ7UUFDc0I7UUFBb0I7UUFBbUI7UUFBN0QsWUFBc0IsV0FBb0IsV0FBbUIsVUFBN0Q7UUFHc0I7UUFBZTtRQUFlO1FBQXBELFlBQXNCLFdBQWUsV0FBZSxVQUFwRDtRQUtzQjtRQUFzQjtRQUE1QyxZQUFzQixXQUFzQixVQUE1QztRQUtzQjtRQUFvQjtRQUExQyxZQUFzQixXQUFvQixVQUExQztRQUtzQjtRQUFRO1FBQTlCLFlBQXNCLFdBQVEsVUFBOUI7UUFLc0I7UUFBZTtRQUFyQyxZQUFzQixXQUFlLFVBQXJDOztRQWpDRjtRQUFBO1FBQUE7UUFBQTtRQUFBO1FBQUE7UUFBQTtRQUFBO1FBQUE7UUFBQTtRQUFBLFdBQUE7WUFBQSw2QkFBQTs7OztvQkNERjtNQUFBO3FDQUFBLFVBQUE7TUFBQTtJQUFBOzs7OzsifQ==
 //# sourceMappingURL=leaderboard.component.ngfactory.js.map
 
 /***/ }),
@@ -2366,17 +2366,17 @@ var CreateStudentComponent = (function () {
         var _this = this;
         this.route.params.subscribe(function (params) {
             if (params.id) {
-                _this.declareStudents(Number(params.id), params.fullname, params.photo, (params.grade1), (params.grade2), (params.grade3), (params.grade4), (params.grade5), params.infoupdated);
+                _this.declareStudents(Number(params.id), params.fullname, params.photo, Number(params.grade1), Number(params.grade2), Number(params.grade3), Number(params.grade4), Number(params.grade5), Number(params.average), params.infoupdated);
                 _this.formMode = true;
             }
             else {
-                _this.declareStudents('', '', '', '', '', '', '', '', '');
+                _this.declareStudents('', '', '', null, null, null, null, null, null, '');
                 _this.formMode = false;
             }
         });
     };
-    CreateStudentComponent.prototype.declareStudents = function (id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated) {
-        this.student = __WEBPACK_IMPORTED_MODULE_1__students_model__["a" /* Students */].createInstance(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated);
+    CreateStudentComponent.prototype.declareStudents = function (id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated) {
+        this.student = __WEBPACK_IMPORTED_MODULE_1__students_model__["a" /* Students */].createInstance(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated);
     };
     CreateStudentComponent.prototype.submitForm = function () {
         if (this.formMode) {
@@ -2393,7 +2393,7 @@ var CreateStudentComponent = (function () {
             _this.snackBar.open(student.fullname + " was created", 'x', {
                 duration: 3000
             });
-            _this.declareStudents('', '', '', '', '', '', '', '', '');
+            _this.declareStudents('', '', '', null, null, null, null, null, null, '');
         })
             .then(function () {
             _this.goBack();
@@ -2406,7 +2406,7 @@ var CreateStudentComponent = (function () {
             _this.snackBar.open("user was updated", 'x', {
                 duration: 3000
             });
-            _this.declareStudents('', '', '', '', '', '', '', '', '');
+            _this.declareStudents('', '', '', null, null, null, null, null, null, '');
         })
             .then(function () {
             _this.goBack();
@@ -2435,31 +2435,31 @@ var StudentsDataService = (function () {
         var students = [
             {
                 id: 1, fullname: 'Android 18', photo: './assets/images/18.png',
-                grade1: 5, grade2: 4, grade3: 5, grade4: 5, grade5: 5, infoupdated: '2017/07/26'
+                grade1: 5, grade2: 4, grade3: 5, grade4: 5, grade5: 5, average: null, infoupdated: '2017/07/26'
             },
             {
                 id: 2, fullname: 'Bills', photo: './assets/images/bills.png',
-                grade1: 4, grade2: 4, grade3: 5, grade4: 0, grade5: null, infoupdated: '2017/07/23'
+                grade1: 4, grade2: 4, grade3: 5, grade4: 0, grade5: null, average: null, infoupdated: '2017/07/23'
             },
             {
                 id: 3, fullname: 'Majin Boo', photo: './assets/images/boo.png',
-                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: 5, infoupdated: '2017/07/24'
+                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: 5, average: null, infoupdated: '2017/07/24'
             },
             {
                 id: 4, fullname: 'Coronel Blue', photo: './assets/images/cap-blue.png',
-                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: null, infoupdated: '2017/07/25'
+                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: null, average: null, infoupdated: '2017/07/25'
             },
             {
                 id: 5, fullname: 'Freeza', photo: './assets/images/freeza.png',
-                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: null, infoupdated: '2017/07/21'
+                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: null, average: null, infoupdated: '2017/07/21'
             },
             {
                 id: 6, fullname: 'Goku (Kakaroto)', photo: './assets/images/goku.png',
-                grade1: 5, grade2: 5, grade3: 5, grade4: 5, grade5: 5, infoupdated: '2017/07/22'
+                grade1: 5, grade2: 5, grade3: 5, grade4: 5, grade5: 5, average: null, infoupdated: '2017/07/22'
             },
             {
                 id: 7, fullname: 'Picoro Daimaku', photo: './assets/images/picoro.png',
-                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: 4, infoupdated: '2017/07/20'
+                grade1: 1, grade2: 4, grade3: 5, grade4: 0, grade5: 4, average: null, infoupdated: '2017/07/20'
             }
         ];
         return { students: students };
@@ -2585,7 +2585,7 @@ var StudentsService = (function () {
             .map(function (student) {
             return student.json().data
                 .map(function (data) {
-                return __WEBPACK_IMPORTED_MODULE_0__students_model__["a" /* Students */].createInstance(data.id, data.fullname, data.photo, data.grade1, data.grade2, data.grade3, data.grade4, data.grade5, data.infoupdated);
+                return __WEBPACK_IMPORTED_MODULE_0__students_model__["a" /* Students */].createInstance(data.id, data.fullname, data.photo, data.grade1, data.grade2, data.grade3, data.grade4, data.grade5, data.average, data.infoupdated);
             });
         });
     };
@@ -2716,7 +2716,7 @@ var StudentsComponent = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Students; });
 var Students = (function () {
-    function Students(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated) {
+    function Students(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated) {
         this.id = id;
         this.fullname = fullname;
         this.photo = photo;
@@ -2725,10 +2725,12 @@ var Students = (function () {
         this.grade3 = grade3;
         this.grade4 = grade4;
         this.grade5 = grade5;
+        this.average = average;
         this.infoupdated = infoupdated;
+        this.average = this.averageGrade();
     }
-    Students.createInstance = function (id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated) {
-        return new Students(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated);
+    Students.createInstance = function (id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated) {
+        return new Students(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated);
     };
     Students.prototype.averageGrade = function () {
         return (Number(this.grade1) + Number(this.grade2) + Number(this.grade3) + Number(this.grade4) + Number(this.grade5)) / 5;

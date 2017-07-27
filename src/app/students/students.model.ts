@@ -1,7 +1,7 @@
 export class Students {
 
-    static createInstance(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated) {
-        return new Students(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated);
+    static createInstance(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated) {
+        return new Students(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated);
     }
     constructor(
         public id: number,
@@ -12,8 +12,11 @@ export class Students {
         public grade3: number,
         public grade4: number,
         public grade5: number,
+        public average: number,
         public infoupdated: string
-    ) { }
+    ) {
+        this.average = this.averageGrade();
+    }
 
     averageGrade() {
         return (Number(this.grade1) + Number(this.grade2) + Number(this.grade3) + Number(this.grade4) + Number(this.grade5)) / 5

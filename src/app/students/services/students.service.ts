@@ -19,7 +19,7 @@ export class StudentsService {
         return student.json().data
           .map((data: Students) => {
             return Students.createInstance(data.id, data.fullname, data.photo,
-              data.grade1, data.grade2, data.grade3, data.grade4, data.grade5, data.infoupdated);
+              data.grade1, data.grade2, data.grade3, data.grade4, data.grade5, data.average, data.infoupdated);
           })
       })
   }

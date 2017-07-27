@@ -39,18 +39,18 @@ export class CreateStudentComponent implements OnInit {
     this.route.params.subscribe((params: Params) => {
       if (params.id) {
         this.declareStudents(Number(params.id), params.fullname,
-          params.photo, (params.grade1), (params.grade2), (params.grade3),
-          (params.grade4), (params.grade5), params.infoupdated)
+          params.photo, Number(params.grade1), Number(params.grade2), Number(params.grade3),
+          Number(params.grade4), Number(params.grade5), Number(params.average), params.infoupdated)
         this.formMode = true;
       } else {
-        this.declareStudents('', '', '', '', '', '', '', '', '');
+        this.declareStudents('', '', '', null, null, null, null, null, null, '');
         this.formMode = false;
       }
     })
   }
 
-  declareStudents(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated) {
-    this.student = Students.createInstance(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, infoupdated);
+  declareStudents(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated) {
+    this.student = Students.createInstance(id, fullname, photo, grade1, grade2, grade3, grade4, grade5, average, infoupdated);
   }
 
   submitForm() {
@@ -66,7 +66,7 @@ export class CreateStudentComponent implements OnInit {
         this.snackBar.open(`${student.fullname} was created`, 'x', {
           duration: 3000
         });
-        this.declareStudents('', '', '', '', '', '', '', '', '');
+        this.declareStudents('', '', '', null, null, null, null, null, null, '');
       })
       .then(() => {
         this.goBack();
@@ -79,7 +79,7 @@ export class CreateStudentComponent implements OnInit {
         this.snackBar.open(`user was updated`, 'x', {
           duration: 3000
         });
-        this.declareStudents('', '', '', '', '', '', '', '', '');
+        this.declareStudents('', '', '', null, null, null, null, null, null, '');
       })
       .then(() => {
         this.goBack();
