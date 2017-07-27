@@ -2,6 +2,8 @@
 
 This is the final of a series of applications made for a Yuxi Global Angular Bootcamp
 
+You can check how this works here : https://matew17.github.io/bootcamp-workshop/
+
 ## Set up the project :smiley_cat: :smiley_cat:
 
 If you want to check this project out locally and change some stuff, you can download the code.
